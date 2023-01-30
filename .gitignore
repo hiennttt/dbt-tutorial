@@ -1,7 +1,7 @@
-target/
-dbt_modules/
-dbt_packages/
-logs/
-venv/
-env/
+target
+dbt_modules
+dbt_packages
+logs
+venv
+env
 __pycache__
