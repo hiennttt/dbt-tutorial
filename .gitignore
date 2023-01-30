@@ -5,3 +5,5 @@ logs
 venv
 env
 __pycache__
+/target/
+/logs/
