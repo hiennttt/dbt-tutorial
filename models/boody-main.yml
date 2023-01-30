@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: odoo
+    tables:
+      - name: stock_location
+        columns:
+          - name: id
+            description: Khóa bản ghi
+            tests:
+              - unique
+              - not_null
+
+          - name: name
+            description: Tên đối tượng dữ liệu
+            tests:
+              - not_null

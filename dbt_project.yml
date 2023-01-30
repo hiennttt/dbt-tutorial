@@ -1,0 +1,14 @@
+name: 'dbt_tutorial'
+
+profile: 'boody'
+config-version: 2
+version: 1.4.1
+
+models:
+  dbt_tutorial:
+    events:
+      # materialize all models in models/events as tables
+      +materialized: table
+    csvs:
+      # this is redundant, and does not need to be set
+      +materialized: view
